@@ -4,6 +4,6 @@ WORKDIR /api
 COPY /api /api
 
 RUN pip install -r requirements.txt
-EXPOSE 8000:8000
+EXPOSE 80:80
 CMD [ "python", "__main__.py" ]
 
